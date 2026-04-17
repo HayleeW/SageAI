@@ -1,10 +1,23 @@
-import streamlit as st
-from sentence_transformers import SentenceTransformer
-from sentence_transformers.util import cos_sim
-import requests
+import streamlit as st  # type: ignore[import]
+try:
+    from sentence_transformers import SentenceTransformer  # type: ignore[import]
+    from sentence_transformers.util import cos_sim  # type: ignore[import]
+except Exception:
+    import sys
+    st.error(
+        "Missing dependency: the 'sentence-transformers' package is not installed or could not be imported.\n\n"
+        "Install it with:\n\n"
+        "    pip install -U sentence-transformers\n\n"
+        "Then restart the Streamlit app."
+    )
+    st.stop()
+
+import json
+import urllib.request
+import urllib.error
 import os
 
-top_indicies = []
+top_indices = []
 k = 5
 notes = []
 
@@ -35,8 +48,6 @@ def find_top_notes(query, k=5):
     # Compute similarity scores
     scores = cos_sim(query_embedding, note_embeddings)[0]
     # Find the index of the most similar note
-    top_indices = scores.topk(k).indices.tolist()
-    # Return the best matching note
     return [notes[i] for i in top_indices]
 
 def generate_answer(context, question):
@@ -49,16 +60,29 @@ def generate_answer(context, question):
 
     Explain things clearly, step-by-step, like a patient tutor. Answer in a friendly, conversational tone, like an AI assistant. Don't add anything that isn't supported by the notes, but don't mention the notes. If you don't know the answer, say you don't know, but offer to help with something else.
     """
-    response = requests.post(
-    "http://localhost:11434/api/generate",
-    json={
+    try:
+        data = json.dumps({
             "model": "llama3",
             "prompt": prompt,
             "stream": False
-        }
-)
-    return response.json().get("response", "Sorry, I couldn't generate an answer.")
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "http://localhost:11434/api/generate",
+            data=data,
+            headers={"Content-Type": "application/json"},
+            method="POST"
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            resp_body = resp.read().decode("utf-8")
+        parsed = json.loads(resp_body)
+        return parsed.get("response", "Sorry, I couldn't generate an answer.")
+    except urllib.error.URLError:
+        return "Sorry, I couldn't reach the generation server (localhost:11434)."
+    except Exception:
+        return "Sorry, I couldn't generate an answer."
 
+    
+if query.strip():
     
 if query.strip():
     with st.spinner("Thinking..."):
