@@ -1,0 +1,199 @@
+A variable stores a value that can change during program execution.
+
+A constant stores a value that cannot change once defined.
+
+A function is a reusable block of code that performs a specific task.
+
+A loop repeats a block of code multiple times.
+
+A conditional executes code only if a specific condition is true.
+
+A bug is an error that causes a program to behave unexpectedly.
+
+Debugging is the process of finding and fixing bugs.
+
+An algorithm is a step‑by‑step procedure for solving a problem.
+
+A compiler converts source code into machine code.
+
+An interpreter executes code line by line.
+
+Pseudocode is a human‑readable description of an algorithm.
+
+A data type defines what kind of value a variable can hold.
+
+A string is a sequence of characters.
+
+An integer is a whole number.
+
+A boolean represents true or false.
+
+An array stores multiple values in a single variable.
+
+A comment is ignored by the computer and used to explain code.
+
+Recursion is when a function calls itself.
+
+A parameter is a variable in a function definition.
+
+An argument is a value passed into a function.
+
+Python uses indentation to define code blocks.
+
+Python lists can store different data types.
+
+A Python dictionary stores key‑value pairs.
+
+Python uses def to define a function.
+
+Python uses # for single‑line comments.
+
+Python supports multiple programming paradigms.
+
+Python’s None represents the absence of a value.
+
+Python uses dynamic typing.
+
+Python’s len() returns the length of a sequence.
+
+Python’s range() generates a sequence of numbers.
+
+Python’s import statement loads modules.
+
+Python exceptions are handled with try and except.
+
+Python classes are defined with the class keyword.
+
+Python uses self to refer to the instance of a class.
+
+Python supports list comprehensions.
+
+Python strings are immutable.
+
+Python uses zero‑based indexing.
+
+Python’s print() outputs text to the console.
+
+Python’s input() reads user input.
+
+Python supports lambda functions.
+
+HTML structures the content of a webpage.
+
+CSS controls the appearance of a webpage.
+
+JavaScript adds interactivity to webpages.
+
+A div is a generic container element in HTML.
+
+A span is an inline container in HTML.
+
+CSS classes can be reused across multiple elements.
+
+CSS IDs must be unique on a page.
+
+JavaScript runs in the browser.
+
+The DOM represents a webpage as a tree of objects.
+
+An API allows different software systems to communicate.
+
+JSON is a lightweight data format used for APIs.
+
+A GET request retrieves data from a server.
+
+A POST request sends data to a server.
+
+A cookie stores small pieces of data in the browser.
+
+Local storage stores data persistently in the browser.
+
+Responsive design adapts layouts to different screen sizes.
+
+Flexbox is a CSS layout system.
+
+CSS Grid is a two‑dimensional layout system.
+
+A framework provides pre‑built tools for development.
+
+A library provides reusable functions or components.
+
+A binary digit is called a bit.
+
+A byte contains eight bits.
+
+A stack is a LIFO data structure.
+
+A queue is a FIFO data structure.
+
+A linked list stores elements in nodes connected by pointers.
+
+A hash table stores key‑value pairs using hashing.
+
+Big‑O notation describes algorithm efficiency.
+
+A CPU executes instructions.
+
+RAM stores data temporarily.
+
+A hard drive stores data permanently.
+
+A GPU accelerates parallel computations.
+
+A thread is the smallest unit of execution.
+
+A process contains one or more threads.
+
+A database stores structured information.
+
+SQL is a language for querying databases.
+
+Encryption protects data by making it unreadable without a key.
+
+Compression reduces file size.
+
+A protocol defines rules for communication.
+
+TCP ensures reliable data transmission.
+
+UDP sends data without guaranteeing delivery.
+
+Version control tracks changes to code.
+
+Git is the most widely used version control system.
+
+A repository stores project files and history.
+
+A commit saves a snapshot of changes.
+
+A branch allows parallel development.
+
+A merge combines changes from different branches.
+
+A pull request proposes changes to a repository.
+
+Continuous integration automatically tests code.
+
+Continuous deployment automatically releases code.
+
+Unit tests check individual functions.
+
+Integration tests check how components work together.
+
+A code review improves quality and catches bugs.
+
+Documentation explains how software works.
+
+Refactoring improves code without changing behavior.
+
+A design pattern is a reusable solution to a common problem.
+
+The DRY principle means “Don’t Repeat Yourself.”
+
+The KISS principle means “Keep It Simple, Stupid.”
+
+The YAGNI principle means “You Aren’t Gonna Need It.”
+
+Technical debt is the cost of poor or rushed code.
+
+Agile development uses short, iterative cycles.

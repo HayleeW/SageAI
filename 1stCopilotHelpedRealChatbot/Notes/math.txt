@@ -1,0 +1,199 @@
+Addition combines two or more numbers into a total.
+
+Subtraction finds the difference between numbers.
+
+Multiplication is repeated addition.
+
+Division splits a number into equal parts.
+
+Zero added to any number leaves it unchanged.
+
+Zero multiplied by any number is zero.
+
+Any number divided by itself equals one.
+
+Multiplying by one leaves a number unchanged.
+
+Even numbers can be divided by two.
+
+Odd numbers cannot be divided evenly by two.
+
+A prime number has exactly two factors.
+
+A composite number has more than two factors.
+
+The number 1 is neither prime nor composite.
+
+Fractions represent parts of a whole.
+
+A numerator is the top number of a fraction.
+
+A denominator is the bottom number of a fraction.
+
+Decimals are another way to write fractions.
+
+Percent means “per hundred.”
+
+50% is the same as one‑half.
+
+25% is the same as one‑quarter.
+
+75% is the same as three‑quarters.
+
+A ratio compares two quantities.
+
+A proportion shows two ratios are equal.
+
+Rounding makes numbers easier to work with.
+
+Estimation helps check if an answer is reasonable.
+
+A negative number is less than zero.
+
+A positive number is greater than zero.
+
+The number line shows numbers in order.
+
+Absolute value measures distance from zero.
+
+A square number is a number multiplied by itself.
+
+A cube number is a number multiplied by itself twice.
+
+The square root of a number undoes squaring.
+
+The order of operations is PEMDAS.
+
+A variable represents an unknown value.
+
+An equation shows two expressions are equal.
+
+An inequality compares two values.
+
+A function relates each input to one output.
+
+A coordinate plane has an x‑axis and y‑axis.
+
+The origin is the point (0, 0).
+
+Slope measures steepness of a line.
+
+A polygon is a closed shape with straight sides.
+
+A triangle has three sides.
+
+A quadrilateral has four sides.
+
+A pentagon has five sides.
+
+A hexagon has six sides.
+
+A right angle measures 90 degrees.
+
+A straight angle measures 180 degrees.
+
+A full circle measures 360 degrees.
+
+Perimeter is the distance around a shape.
+
+Area measures surface inside a shape.
+
+Volume measures space inside a 3D object.
+
+A rectangle’s area is length times width.
+
+A triangle’s area is base times height divided by two.
+
+A circle’s area depends on its radius.
+
+A circle’s circumference is its perimeter.
+
+A radius goes from the center to the edge of a circle.
+
+A diameter goes across the circle through the center.
+
+Parallel lines never meet.
+
+Perpendicular lines meet at right angles.
+
+Symmetry means both sides match.
+
+Probability measures how likely something is.
+
+A 50% chance means equal likelihood.
+
+A mean is the average of a set of numbers.
+
+A median is the middle value.
+
+A mode is the most frequent value.
+
+A range is the difference between highest and lowest.
+
+A bar graph compares categories.
+
+A line graph shows change over time.
+
+A pie chart shows parts of a whole.
+
+A histogram shows frequency of data.
+
+Units measure quantities like length or weight.
+
+A meter is slightly longer than a yard.
+
+A kilometer is about 0.62 miles.
+
+A liter is slightly more than a quart.
+
+A kilogram is about 2.2 pounds.
+
+Time is measured in seconds, minutes, and hours.
+
+There are 60 seconds in a minute.
+
+There are 60 minutes in an hour.
+
+There are 24 hours in a day.
+
+There are 365 days in a year.
+
+A leap year has 366 days.
+
+Money uses decimals to show cents.
+
+Sales tax increases the total price.
+
+Discounts reduce the price.
+
+Tips are usually a percentage of the bill.
+
+Interest is money earned or paid over time.
+
+Budgeting helps track income and expenses.
+
+Rounding helps estimate costs quickly.
+
+Dividing a bill evenly uses basic division.
+
+Comparing prices uses subtraction.
+
+Cooking often uses fractions.
+
+Doubling a recipe uses multiplication.
+
+Halving a recipe uses division.
+
+Measuring ingredients uses units and conversions.
+
+Travel time uses distance divided by speed.
+
+Gas mileage uses miles per gallon.
+
+Temperature uses Celsius or Fahrenheit.
+
+A calendar uses patterns and sequences.
+
+Patterns help predict future values.
+
+Math is used in everyday decisions and problem‑solving.
