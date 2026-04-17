@@ -80,9 +80,6 @@ def generate_answer(context, question):
         return "Sorry, I couldn't reach the generation server (localhost:11434)."
     except Exception:
         return "Sorry, I couldn't generate an answer."
-
-    
-if query.strip():
     
 if query.strip():
     with st.spinner("Thinking..."):
